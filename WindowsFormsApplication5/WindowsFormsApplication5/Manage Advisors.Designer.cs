@@ -136,14 +136,17 @@
             this.cmdDelete.TabIndex = 20;
             this.cmdDelete.Text = "Delete";
             this.cmdDelete.UseVisualStyleBackColor = true;
+            this.cmdDelete.Click += new System.EventHandler(this.cmdDelete_Click);
             // 
             // comboBoxDesignation
             // 
             this.comboBoxDesignation.FormattingEnabled = true;
             this.comboBoxDesignation.Items.AddRange(new object[] {
             "Professor",
-            "Assosiate Professor",
-            "Assistant Professor"});
+            "Associate Professor",
+            "Assistant Professor",
+            "Lecturer",
+            "Industry Professional"});
             this.comboBoxDesignation.Location = new System.Drawing.Point(175, 234);
             this.comboBoxDesignation.Name = "comboBoxDesignation";
             this.comboBoxDesignation.Size = new System.Drawing.Size(207, 21);

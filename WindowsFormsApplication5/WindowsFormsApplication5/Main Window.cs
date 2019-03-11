@@ -37,5 +37,12 @@ namespace WindowsFormsApplication5
             this.Hide();
             a.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Manage_Students a = new Manage_Students();
+            this.Hide();
+            a.Show();
+        }
     }
 }

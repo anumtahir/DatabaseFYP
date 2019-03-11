@@ -11,3 +11,17 @@ c:\users\anumt\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplic
 c:\users\anumt\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Manage_Projects.resources
 C:\Users\anumt\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Manage_Advisors.resources
 C:\Users\anumt\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Person.resources
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Form1.resources
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Main_Window.resources
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Manage_Advisors.resources
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Manage_Projects.resources
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Person.resources
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\anumt\OneDrive\Desktop\Semester6\DatabaseFYP\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Manage_Students.resources

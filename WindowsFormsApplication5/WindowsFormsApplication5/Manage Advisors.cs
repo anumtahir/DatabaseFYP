@@ -51,16 +51,30 @@ namespace WindowsFormsApplication5
                 {
                     try
                     {
-                        
-                        string p1 = @"(select FirstName,Email from Person where FirstName = '" + txtFirstName.Text + "' and Email ='" + txtEmail.Text + "' )";
-                        SqlCommand command1 = new SqlCommand(p1, conn);
-                        command1.ExecuteNonQuery();
 
+   //****************                     string p1 = @"(select FirstName,Email from Person where FirstName = '" + txtFirstName.Text + "' and Email ='" + txtEmail.Text + "' )";
+                   //     SqlCommand command1 = new SqlCommand(p1, conn);
+                    //    command1.ExecuteNonQuery();
+                        //if(("select * from Person where FirstName = '" + txtFirstName.Text + "' and LastName='" + txtLastName.Text + "' and Email ='" + txtEmail.Text + "' "));
 
-                        string p2 = "insert into Advisor(Designation , Salary) values ((select Id from Lookup where Value = '" + comboBoxDesignation.Text + "') , '" + this.txtSalary.Text.ToString() + "' )      ";
+                        //string check = @"(select count(*) from Advisor where Email='" + txtEmail.Text + "')";
+                        string p2 = "insert into Advisor(Id,Designation , Salary) values ((select Id from Person where FirstName = '" + txtFirstName.Text + "' and LastName='" + txtLastName.Text + "' and Email ='" + txtEmail.Text + "'),(select Id from Lookup where Value = '" + comboBoxDesignation.Text + "') , '" + txtSalary.Text + "' )";
                         SqlCommand command2 = new SqlCommand(p2, conn);
-                        command2.ExecuteNonQuery();
-                        MessageBox.Show("Added successfully");
+
+                        //SqlCommand cmda = new SqlCommand(check, conn);
+                        //int count = (int)cmda.ExecuteScalar();
+                        //if (count > 0)
+                        //{
+                        //    MessageBox.Show("This advisor already exist");
+                        //}
+                        //else
+                        //{
+                            command2.ExecuteNonQuery();
+                            MessageBox.Show("Added successfully");
+                       // }
+
+
+                        
                     }
 
                     catch(Exception ex)
@@ -79,5 +93,45 @@ namespace WindowsFormsApplication5
         {
 
         }
+
+        private void cmdDelete_Click(object sender, EventArgs e)
+        {
+            if (txtFirstName.Text == "" || txtEmail.Text == "")
+            {
+                MessageBox.Show("Must enter first name & email fields to delete. ");
+            }
+            else
+            {
+                try
+                {
+
+
+                    SqlConnection conn = new SqlConnection(conURL);
+                    conn.Open();
+
+                    if (conn.State == ConnectionState.Open)
+                    {
+
+
+                        string p = "delete from Advisor where Id =(select Id from Person where FirstName = '" + txtFirstName.Text + "' and LastName='" + txtLastName.Text + "' and Email ='" + txtEmail.Text + "')  ";
+                        SqlCommand command = new SqlCommand(p, conn);
+
+
+                        command.ExecuteNonQuery();
+                        MessageBox.Show("Deleted person successfully");
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Didn't delete");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        
+    }
     }
 }
